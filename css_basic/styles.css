@@ -1,0 +1,72 @@
+/* Custom styles for your unique website */
+
+/* General body styling */
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 4px solid #388e3c;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul .logo {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Article styling */
+article {
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Aside styling */
+aside {
+    padding: 20px;
+    background: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #388e3c;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #4caf50;
+}
+
+a:hover {
+    color: #388e3c;
+    text-decoration: underline;
+}
