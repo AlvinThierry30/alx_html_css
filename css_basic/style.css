@@ -1,0 +1,51 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body container settings */
+body {
+    display: flex;
+    flex-direction: column; /* Arrange header, main, and footer in a column */
+    min-height: 100vh; /* Ensure the body takes the full viewport height */
+}
+
+/* Header and Footer styling */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Main container settings */
+main {
+    display: flex; /* Arrange article and aside in a row */
+    flex: auto; /* Allow it to grow and shrink as needed */
+}
+
+/* Article styling */
+article {
+    flex: 2; /* Occupies 2/3 of the available width */
+    padding: 20px;
+    background-color: #f9f9f9;
+    overflow-y: auto; /* Allows vertical scrolling */
+}
+
+/* Aside styling */
+aside {
+    flex: 1; /* Occupies 1/3 of the available width */
+    padding: 20px;
+    background-color: #e9e9e9;
+    overflow-y: auto; /* Allows vertical scrolling */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
