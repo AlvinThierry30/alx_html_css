@@ -3,37 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Base Index Page</title>
 </head>
 <body>
     <!-- Header Section -->
     <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="tweets.html">Tweets</a></li>
-        </ul>
+        <h1>Welcome to My Basic HTML Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Main Section -->
+    <!-- Main Content -->
     <main>
-        <!-- Article Section: Content -->
         <article>
-            <h1>Welcome to My Portfolio</h1>
-            <p>This is the homepage of my personal portfolio where I showcase my work.</p>
-            <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="Logo" style="width: 200px; height: auto;">
-            <p>Click the link below to see my tweets:</p>
-            <a href="tweets.html">Click here to see my tweets</a>
+            <h2 id="introduction">Introduction</h2>
+            <p>This is the first paragraph. Here we introduce the content of the page.</p>
+
+            <h2 id="details">Details</h2>
+            <p>This is the second paragraph. It provides more information and details about the topic.</p>
+
+            <h2 id="history">History</h2>
+            <p>This is the third paragraph. It talks about the history behind the content.</p>
+
+            <h2 id="conclusion">Conclusion</h2>
+            <p>This is the fourth paragraph. It concludes and wraps up the page content.</p>
         </article>
 
-        <!-- Aside Section: Placeholder for Comments -->
         <aside>
-            <p>Placeholder to add comment thread later</p>
+            <!-- Placeholder to add comment thread later -->
+            <p>Placeholder to add comment thread later.</p>
         </aside>
     </main>
 
     <!-- Footer Section -->
     <footer>
-        <p>Made by Your Name - <a href="https://yourlink.com" target="_blank">here</a></p>
+        <p>Made by Your Name - <a href="https://www.example.com" target="_blank">Visit Here</a></p>
     </footer>
 </body>
 </html>
